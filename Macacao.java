@@ -4,7 +4,7 @@ public class Macacao extends  Roupa {
         super(precoUnidade, tamanho);
     }
     @Override
-    public float calculaValorUnidade() throws Exception {
+    public float calculaValorUnidade()  {
         return this.precoUnidade + (this.material.precoTabelado(tamanho));
     }
 }

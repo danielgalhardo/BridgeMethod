@@ -6,7 +6,7 @@ public class Calca extends  Roupa{
     }
 
     @Override
-    public float calculaValorUnidade() throws Exception {
+    public float calculaValorUnidade() {
         return this.precoUnidade + (this.material.precoTabelado(tamanho));
     }
 }
